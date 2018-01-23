@@ -3,7 +3,7 @@ project(cpp1_)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES main.cpp using.h auto.h bind.h coding.h constexpr.h deduction_guide.h emplace.h for.h initialize_list.h lambda.h string_view.h tuple.h using.h for_each.h move.h atomic.h file_system.h random.h smart_ptr.h)
+set(SOURCE_FILES src/main.cpp src/using.h src/auto.h src/bind.h src/coding.h src/constexpr.h src/deduction_guide.h src/emplace.h src/for.h src/initialize_list.h src/lambda.h src/string_view.h src/tuple.h src/using.h src/for_each.h src/move.h src/atomic.h src/file_system.h src/random.h src/smart_ptr.h)
 add_executable(cpp1_ ${SOURCE_FILES})
 
 target_link_libraries(cpp1_)
