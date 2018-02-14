@@ -6,7 +6,6 @@ namespace StringView
     void Test()
     {
         constexpr std::string_view sv = "it is a test";
-
         std::cout << sv << std::endl;
     }
 }
